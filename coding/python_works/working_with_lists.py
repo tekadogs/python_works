@@ -32,3 +32,13 @@ for num in range(0,11):
     squares.append(num**2)
 
 print(squares)
+
+#simple statistics with a list of numbers
+digits = []
+for digit in range(0,11):
+    digits.append(digit)
+
+print(digits)
+print(min(digits))
+print(max(digits))
+print(sum(digits))
