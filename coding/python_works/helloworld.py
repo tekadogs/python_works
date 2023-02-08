@@ -1,10 +1,5 @@
-username = input('Input Username:')
-usernames = []
-usernames.append(username)
+message = "Hello Python World!"
+print(message)
 
-print('Hello ' +username)
-input('Would you like to see database? (y/n)')
-if input == 'y':
-    print(usernames)
-else:
-    print('Goodbye!')
+message = "Hello Python Crash Course World!"
+print(message)
